@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/warning"
+            android:icon="@mipmap/warning"
+            android:title="Warning"/>
+
+        <item
+            android:id="@+id/candy"
+            android:icon="@mipmap/candy"
+            android:title="Candy"/>
+
+        <item
+            android:id="@+id/color"
+            android:icon="@mipmap/color"
+            android:title="Color"/>
+
+        <item
+            android:id="@+id/layer"
+            android:icon="@mipmap/layer"
+            android:title="Layer" />
+
+    </group>
+
+</menu>

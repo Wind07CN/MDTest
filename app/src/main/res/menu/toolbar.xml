@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/star"
+        android:icon="@mipmap/star2"
+        android:title="收藏"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/location"
+        android:icon="@mipmap/location"
+        android:title="地点"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/back"
+        android:title="首页"
+        android:icon="@mipmap/star"
+        app:showAsAction="never"/>
+
+
+</menu>
